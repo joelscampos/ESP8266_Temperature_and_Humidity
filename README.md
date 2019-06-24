@@ -1,4 +1,4 @@
-# ESP8266_Temperature_and_Humidity
+# ESP8266 Temperature and Humidity
 Monitoring Room's Temperature and Humidity with NodeMCU
 
 ## The NodeMCU
