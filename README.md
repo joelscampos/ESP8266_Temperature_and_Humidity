@@ -7,10 +7,10 @@ NodeMCU microboard controler that comes with WiFi included, and it costs just $2
 Here is a good explanation of what NodeMCU is: https://developer.ibm.com/tutorials/iot-nodemcu-open-why-use/
 
 # Summary
-### 1) Installing IDE to communicate with the NodeMCU board.
-### 2) Write the program code
-### 3) Upload the program to the NodeMCU board
-### 4) Connect the sensor to the NodeMCU board
+#### 1) Installing IDE to communicate with the NodeMCU board.
+#### 2) Write the program code
+#### 3) Upload the program to the NodeMCU board
+#### 4) Connect the sensor to the NodeMCU board
     
     
 ## 1) Installing IDE
