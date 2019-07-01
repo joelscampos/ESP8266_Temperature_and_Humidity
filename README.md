@@ -7,13 +7,23 @@ NodeMCU microboard controler that comes with WiFi included, and it costs just $2
 Here is a good explanation of what NodeMCU is: https://developer.ibm.com/tutorials/iot-nodemcu-open-why-use/
 
 # Summary
-#### 1) Install IDE to communicate with the NodeMCU board.
-#### 2) Connect the sensor to the NodeMCU board
+#### 1) Connect the sensor to the NodeMCU board
+#### 2) Install IDE to communicate with the NodeMCU board.
 #### 3) Write the program code
 #### 4) Upload the program to the NodeMCU board
     
-    
-## 1) Installing IDE
+## 1) Connect the sensors to the NodeMCU board
+
+These two pictures below show how to wire the pin's board to the temperature sensor and to the display.
+The sensor DHT11 is connected to the PIN D3, and the display's PINs (CLK and DIO) are connected to the PINs D7 and D6, respectively.
+
+![image](https://user-images.githubusercontent.com/2295468/60403030-16a30100-9b6e-11e9-876f-1c22b747e579.png)
+
+![IMG_3142_1](https://user-images.githubusercontent.com/2295468/60403086-3edf2f80-9b6f-11e9-874f-2e2648971b07.jpg)
+
+
+
+## 2) Installing the IDE
 
 1) Download and install the Arduino IDE: https://www.arduino.cc/en/Main/Software
 
@@ -36,15 +46,6 @@ Here is a good explanation of what NodeMCU is: https://developer.ibm.com/tutoria
 
 Reference: https://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/ 
 
-
-## 2) Connect the sensors to the NodeMCU board
-
-These two pictures below show how to wire the pin's board to the temperature sensor and to the display.
-The sensor DHT11 is connected to the PIN D3, and the display's PINs (CLK and DIO) are connected to the PINs D7 and D6, respectively.
-
-![image](https://user-images.githubusercontent.com/2295468/60403030-16a30100-9b6e-11e9-876f-1c22b747e579.png)
-
-![IMG_3142_1](https://user-images.githubusercontent.com/2295468/60403086-3edf2f80-9b6f-11e9-874f-2e2648971b07.jpg)
 
 ## 3) Writing the program code
 
@@ -70,3 +71,9 @@ Open the menu "Tools" >> "Manage Libraries...":
 
 
 ## 4) Upload the code to the board
+
+Before uploading the program onto the board, be sure to open the "Serial Monitor", so that you can see the IP address of the board:
+
+   ![image](https://user-images.githubusercontent.com/2295468/60408893-33076380-9b97-11e9-98e7-4dbd07d7990f.png)
+   
+   
